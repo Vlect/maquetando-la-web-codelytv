@@ -2,10 +2,6 @@ name: CI
 
 on: push
 
-defaults:
-  run:
-    working-directory: ./../../../maquetando-la-web-decodely
-
 jobs:
   lint:
     runs-on: ubuntu-latest
