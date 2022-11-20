@@ -18,5 +18,5 @@ jobs:
       - name: 💅 Lint
         run: yarn lint
 
-      - name: ✅ Design System - Unit tests
-        run: yarn design-system:test
+      # - name: ✅ Design System - Unit tests
+      #   run: yarn design-system:test
